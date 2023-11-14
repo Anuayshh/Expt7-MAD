@@ -1,40 +1,43 @@
-
 # Ex.No:7 Develop an android application to display the place name with image using list view in android studio.
 
+## DATE : 27/09/2023
 
 ## AIM:
-
 To create and develop the application to display the place name with image using list view in android studio
 
 ## EQUIPMENTS REQUIRED:
-
 Android Studio(Latest Version)
 
 ## ALGORITHM:
 
-Step 1: Open Android Stdio and then click on File -> New -> New project.
+### Step 1:
+Open Android Stdio and then click on File -> New -> New project.
 
-Step 2: Then type the Application name as “listview″ and click Next. 
+### Step 2: 
+Then type the Application name as “listview″ and click Next. 
 
-Step 3: Then select the Minimum SDK as shown below and click Next.
+### Step 3: 
+Then select the Minimum SDK as shown below and click Next.
 
-Step 4: Then select the Empty Activity and click Next. Finally click Finish.
+### Step 4:
+Then select the Empty Activity and click Next. Finally click Finish.
 
-Step 5: Design layout in activity_main.xml.
+### Step 5:
+Design layout in activity_main.xml.
 
-Step 6: Get contacts details and Display details give in MainActivity file.
+### Step 6:
+Get contacts details and Display details give in MainActivity file.
 
-Step 7: Save and run the application.
+### Step 7:
+Save and run the application.
 
 ## PROGRAM:
 ```
-/*
 Program to print the list of item.
 Developed by:V R ANU AYSHWARYA
 Registeration Number :212221040016
-*/
 ```
-## activity_main.xml
+## activity_main.xml:
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -56,7 +59,7 @@ Registeration Number :212221040016
 </androidx.constraintlayout.widget.ConstraintLayout>
 ```
 
-## MainActivity.java
+## MainActivity.java:
 ```
 package com.example.listview;
 import androidx.appcompat.app.AppCompatActivity;
@@ -113,7 +116,7 @@ public class MainActivity extends AppCompatActivity {
 
 ```
 
-## mylist.xml
+## mylist.xml:
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -160,7 +163,7 @@ public class MainActivity extends AppCompatActivity {
 `
 </LinearLayout>
 ```
-## MyListAdapter.java
+## MyListAdapter.java:
 ```
 package com.example.listview;
 import android.app.Activity;
@@ -192,7 +195,7 @@ public View getView(int position,View view,ViewGroup parent) {
 }
 
 ```
-## OUTPUT
+## OUTPUT:
 
 
 ![image](https://github.com/Anuayshh/Expt7-MAD/assets/127651217/6d28a3f7-c517-40dc-97a4-7747eab32bbe)
@@ -205,5 +208,5 @@ public View getView(int position,View view,ViewGroup parent) {
 
 
     
-## RESULT
+## RESULT:
 Thus a Simple Android Application to create and develop the application to display the place name with image using list view in android studio is developed and executed successfully.
